@@ -21,7 +21,7 @@ q:: {
         Dune()
 
 	ToolTip("Casting", 1200, 900)
-        Send("4")
+        Send("2")
 
         Loop 4 {
 	    ToolTip("Casting", 1200, 900)
@@ -49,7 +49,7 @@ q:: {
 }
 
 Dune() {
-    Send("6")
+    Send("1")
     Sleep(200)
     Click()
     Sleep(1200)
@@ -58,7 +58,7 @@ Dune() {
 Cast() {
     Sleep(200)
     Click()
-    Sleep(800)
+    Sleep(900)
     Click()
     Sleep(1000)
 }
