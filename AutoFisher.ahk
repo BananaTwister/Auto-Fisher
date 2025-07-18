@@ -119,13 +119,13 @@ Catching() {
 		{
 			if (color3 == targetColor1 || color7 == targetColor2)
 			{
-				Send("w")
+				Send("s")
 			}
 			else
 			{
 				if (color4 == targetColor1 || color8 == targetColor2)
 				{
-					Send("s")
+					Send("w")
 				}
 			}
 		}
